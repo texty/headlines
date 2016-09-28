@@ -89,8 +89,13 @@ h4 span{
   }
 
   .quote {
-    font-size: 1.75em;
-    min-height: 250px;
+    font-size: 1.25em;
+    min-height: 275px;
+  }
+
+  .quote::before {
+
+    font-size: 4em;
   }
 }
 
