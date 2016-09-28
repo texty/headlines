@@ -25,7 +25,7 @@ h1{
 .first-screen {
   margin-top: 15%;
   margin-bottom: 15%;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 .published {
   font-size: 0.75em;
@@ -55,9 +55,26 @@ h4 span{
   top: 0.5em;
 }
 
+.additional {
+  padding-top: 1%;
+  background-color: #EFF2F4;
+  border-radius: 10px;
+}
+
+.comment::before{
+  content: "“";
+  font-family: Arial;
+  font-size: 4em;
+  position: relative;
+}
+
 @media (max-width:544px) {
   .row {
     width: 100%;
+  }
+
+  .subtitle {
+    font-size: 1.25em;
   }
 
   h1 {
@@ -75,6 +92,10 @@ h4 span{
     width: 80%;
   }
 
+  .subtitle {
+    font-size: 1.25em;
+  }
+
   h1 {
     font-size: 2.5em;
   }
@@ -88,6 +109,10 @@ h4 span{
 @media (max-width:992px) {
   .row {
     width: 80%;
+  }
+
+  .subtitle {
+    font-size: 1.25em;
   }
 
   .full-width-picture {
